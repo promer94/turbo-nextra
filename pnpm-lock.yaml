@@ -1,5 +1,8 @@
 lockfileVersion: 5.4
 
+overrides:
+  '@mdx-js/react': 2.2.1
+
 importers:
 
   .:
@@ -85,7 +88,7 @@ importers:
 
   packages/ui:
     specifiers:
-      '@mdx-js/react': 2.1.5
+      '@mdx-js/react': 2.2.1
       '@types/react': ^18.0.26
       '@types/react-dom': ^18.0.10
       eslint: ^8.31.0
@@ -94,7 +97,7 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.9.4
     dependencies:
-      '@mdx-js/react': 2.1.5_react@18.2.0
+      '@mdx-js/react': 2.2.1_react@18.2.0
     devDependencies:
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.10
@@ -188,16 +191,6 @@ packages:
       vfile: 5.3.6
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@mdx-js/react/2.1.5_react@18.2.0:
-    resolution: {integrity: sha512-3Az1I6SAWA9R38rYjz5rXBrGKeZhq96CSSyQtqY+maPj8stBsoUH5pNcmIixuGkufYsh8F5+ka2CVPo2fycWZw==}
-    peerDependencies:
-      react: '>=16'
-    dependencies:
-      '@types/mdx': 2.0.3
-      '@types/react': 18.0.26
-      react: 18.2.0
     dev: false
 
   /@mdx-js/react/2.2.1_react@18.2.0:
